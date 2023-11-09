@@ -1,0 +1,24 @@
+/* HEADER */
+@mixin anclas{
+    text-decoration: none;
+    color: #BBBBBB;         
+}
+
+.tamLogo {
+    width: 170px;
+}
+
+.encabezado {
+    border-top: 20px solid $color-verde;
+    background-color: $color-blanco;
+}
+
+.fuentesNav {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    a:hover {
+        background-color: $color-verde;
+        color: $color-blanco;
+    }
+}

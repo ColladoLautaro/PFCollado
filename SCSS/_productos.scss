@@ -1,0 +1,24 @@
+/* Seccion Productos en Inicio */
+
+.tituloProductosInicio {
+    background-color: $color-verde;
+    color: $color-blanco;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "nunito";
+    padding: 15px;
+}
+
+.imgCont {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}
