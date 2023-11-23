@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Explora nuestra farmacia en línea, donde la atención personalizada de los dueños garantiza un servicio excepcional. Encuentra una extensa gama de productos farmacéuticos y medicamentos de calidad. Además, sorpréndete con nuestra selección de regalos cuidadosamente elegidos. En nuestra página, la salud se encuentra con la dedicación de quienes la atienden. Bienvenido a un espacio donde la excelencia en el servicio y la variedad de opciones se unen para brindarte una experiencia única.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/logobla.ico">
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -53,17 +56,17 @@
             </nav>
         </div>
     </header>
+
     <!-- Subtitulo -->
 
-    <div class="tituloProductosInicio mt-5">
-        <h2>Nuestros Productos</h2>
-    </div>
+    <main class="tituloProductosInicio mt-4">
+        <h1>Nuestros Productos</h1>
+    </main>
 
-
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="card col-xl-3 col-md-6  col-sm-12 row container-fluid">
-                <div class="imgCont">
+            <div class=" card col-lg-3 col-md-6 col-sm-12">
+                <div class=" imgCont card">
                     <img class="medicaImg" src="../img/alikal_sobre-removebg-preview.png" class="card-img-top"
                         alt="Imagen Alikal">
                 </div>
@@ -76,9 +79,11 @@
                 </div>
             </div>
 
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <div class="imgCont"><img class="medicaImg" src="../img/aerotina-removebg-preview.png"
-                        class="card-img-top" alt="Imagen Aerotina"></div>
+            <div class=" card col-xl-3 col-md-6 col-sm-12">
+                <div class="imgCont card">
+                    <img class="medicaImg" src="../img/aerotina-removebg-preview.png" class="card-img-top"
+                        alt="Imagen Aerotina">
+                </div>
                 <div class="card-body">
                     <h3 class="card-title">Aerotina</h3>
                     <p class="card-text"> $150</p>
@@ -89,8 +94,8 @@
             </div>
 
             <div class="card col-xl-3 col-md-6  col-sm-12 ">
-                <div class="imgCont">
-                    <img src="../img/artostopng.png" class="card-img-top" alt="Imagen Artrostop">
+                <div class="imgCont card ">
+                    <img class="medicaImg" src="../img/artostopng.png" class="card-img-top" alt="Imagen Artrostop">
                 </div>
                 <div class="card-body">
                     <h3 class="card-title">Artostop T</h3>
@@ -103,7 +108,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <div class="imgCont">
+                <div class="imgCont card ">
                     <img src="../img/benadryl.png" class="card-img-top" alt="Imagen Benadryl">
                 </div>
                 <div class="card-body">
@@ -116,7 +121,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgCont" src="../img/dermaglock.png" class="card-img-top" alt="Imagen Dermaglos">
+                <img class="imgCont card " src="../img/dermaglock.png" class="card-img-top" alt="Imagen Dermaglos">
                 <div class="card-body">
                     <h3 class="card-title">Dermaglós</h3>
                     <p class="card-text">$5000</p>
@@ -127,7 +132,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="medicaImg" src="../img/ibuprofeno.png" class="card-img-top" alt="Imagen Ibuprofeno">
+                <img class="imgCont card " src="../img/ibuprofeno.png" class="card-img-top" alt="Imagen Ibuprofeno">
                 <div class="card-body">
                     <h3 class="card-title">Actron 400</h3>
                     <p class="card-text">$600</p>
@@ -138,7 +143,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="medicaImg" src="../img/losartan.png" class="card-img-top" alt="Imagen Losartan">
+                <img class="imgCont card " src="../img/losartan.png" class="card-img-top" alt="Imagen Losartan">
                 <div class="card-body">
                     <h3 class="card-title">Losartan</h3>
                     <p class="card-text">$2500</p>
@@ -149,7 +154,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="medicaImg" src="../img/macril-removebg-preview.png" class="card-img-top"
+                <img class="imgCont card " src="../img/macril-removebg-preview.png" class="card-img-top"
                     alt="Imagen Macril">
                 <div class="card-body">
                     <h3 class="card-title">Macril</h3>
@@ -187,9 +192,8 @@
 
         <div class="container">
 
-            <div class="footer-row">
-
-                <div class="footer-links">
+            <div class="d-md-flex flex-md-row">
+                <div class="footer-links flex-md-fill">
                     <h4>Nuestra Tienda</h4>
                     <ul>
                         <li> <a href="../html/tienda.html">Catalogo</a></li>
@@ -198,7 +202,7 @@
                     </ul>
 
                 </div>
-                <div class="footer-links">
+                <div class="footer-links flex-md-fill">
                     <h4>Información</h4>
                     <ul>
                         <li><a target="_blank"
@@ -212,7 +216,7 @@
 
                 </div>
 
-                <div class="footer-links">
+                <div class="footer-links flex-md-fill">
                     <h4>Nuestras Redes</h4>
                     <ul>
                         <li><a target="_blank"
@@ -227,12 +231,12 @@
 
 
         </div>
-        <!-- JS BS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-    </footer>
 
+    </footer>
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

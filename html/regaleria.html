@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Explora nuestra farmacia en línea, donde la atención personalizada de los dueños garantiza un servicio excepcional. Encuentra una extensa gama de productos farmacéuticos y medicamentos de calidad. Además, sorpréndete con nuestra selección de regalos cuidadosamente elegidos. En nuestra página, la salud se encuentra con la dedicación de quienes la atienden. Bienvenido a un espacio donde la excelencia en el servicio y la variedad de opciones se unen para brindarte una experiencia única.">
+        content="En esta seccion ofrecemos increibles productos para regaleria, tales como anillos, pulseras , aritos, etc.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/logobla.ico">
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -15,54 +17,56 @@
     <title>Regaleria</title>
 </head>
 
-<body>
+<body class="container-fluid">
 
     <!-- HEADER BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary encabezado">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img class="tamLogo" src="../img/logobla.png" alt="Logo Farmacia">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav fuentesNav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tienda.html">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="tamLogo" src="../img/logobla.png" alt="Logo Farmacia">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fuentesNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="promos.html">Promociones</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promos.html">Promociones</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="regaleria.html">Regaleria</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="regaleria.html">Regaleria</a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- CATALOGO REGALOS -->
 
-    <div class="tituloProductosInicio mt-5">
-        <h2>Nuestros Productos</h2>
-    </div>
+    <main class="tituloProductosInicio mt-5">
+        <h1>Nuestros Productos</h1>
+    </main>
 
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="card col-xl-3 col-md-6 col-sm-12 row container-fluid">
-                <div class="imgRegalo">
+            <div class="card col-xl-3 col-md-6 col-sm-12 ">
+                <div class="imgRegalo card">
                     <img class="medicaImg" src="../img/anillo.jpg" class="card-img-top" alt="Imagen anillo 0">
                 </div>
                 <div class="card-body">
@@ -75,7 +79,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <div class="imgRegalo"><img class="medicaImg" src="../img/anillo2.jpg" class="card-img-top"
+                <div class="imgRegalo card"><img class="medicaImg" src="../img/anillo2.jpg" class="card-img-top"
                         alt="Imagen anillo1"></div>
                 <div class="card-body">
                     <h3 class="card-title">Anillo de plata</h3>
@@ -87,7 +91,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12 ">
-                <div class="imgRegalo">
+                <div class="imgRegalo card">
                     <img src="../img/anillo3.jpg" class="card-img-top" alt="Imagen anillo2">
                 </div>
                 <div class="card-body">
@@ -101,7 +105,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <div class="imgRegalo">
+                <div class="imgRegalo card">
                     <img src="../img/anillo4.jpg" class="card-img-top" alt="Imagen anillo3">
                 </div>
                 <div class="card-body">
@@ -114,7 +118,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/collar.jpg" class="card-img-top" alt="Imagen collar 0">
+                <img class="imgRegalo card" src="../img/collar.jpg" class="card-img-top" alt="Imagen collar 0">
                 <div class="card-body">
                     <h3 class="card-title">Collar ave</h3>
                     <p class="card-text">$1400</p>
@@ -125,7 +129,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/collar1.jpg" class="card-img-top" alt="Imagen collar 1">
+                <img class="imgRegalo card" src="../img/collar1.jpg" class="card-img-top" alt="Imagen collar 1">
                 <div class="card-body">
                     <h3 class="card-title">Collar loveyou</h3>
                     <p class="card-text">$1200</p>
@@ -136,7 +140,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/collar3.jpg" class="card-img-top" alt="Imagen Collar 2">
+                <img class="imgRegalo card" src="../img/collar3.jpg" class="card-img-top" alt="Imagen Collar 2">
                 <div class="card-body">
                     <h3 class="card-title">Collar colores</h3>
                     <p class="card-text">$2500</p>
@@ -147,7 +151,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/anillo1.jpg" class="card-img-top" alt="Imagen Macril">
+                <img class="imgRegalo card" src="../img/anillo1.jpg" class="card-img-top" alt="Imagen Macril">
                 <div class="card-body">
                     <h3 class="card-title">Collar piedras</h3>
                     <p class="card-text"> $1100</p>
@@ -158,7 +162,7 @@
             </div>
 
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/arito.jpg" class="card-img-top" alt="Imagen aros">
+                <img class="imgRegalo card" src="../img/arito.jpg" class="card-img-top" alt="Imagen aros">
                 <div class="card-body">
                     <h3 class="card-title">Aros plata 925</h3>
                     <p class="card-text"> $500</p>
@@ -178,7 +182,7 @@
                 </div>
             </div>
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/arito2.jpg" class="card-img-top" alt="Imagen aros2">
+                <img class="imgRegalo card" src="../img/arito2.jpg" class="card-img-top" alt="Imagen aros2">
                 <div class="card-body">
                     <h3 class="card-title">Aros plata 925</h3>
                     <p class="card-text"> $1100</p>
@@ -188,7 +192,7 @@
                 </div>
             </div>
             <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img class="imgRegalo" src="../img/arito3.jpg" class="card-img-top" alt="Imagen aros 3">
+                <img class="imgRegalo card" src="../img/arito3.jpg" class="card-img-top" alt="Imagen aros 3">
                 <div class="card-body">
                     <h3 class="card-title">Aros cuff plata 925</h3>
                     <p class="card-text"> $900</p>
@@ -227,9 +231,8 @@
 
         <div class="container">
 
-            <div class="footer-row">
-
-                <div class="footer-links">
+            <div class="d-md-flex flex-md-row">
+                <div class="footer-links flex-md-fill">
                     <h4>Nuestra Tienda</h4>
                     <ul>
                         <li> <a href="../html/tienda.html">Catalogo</a></li>
@@ -238,7 +241,7 @@
                     </ul>
 
                 </div>
-                <div class="footer-links">
+                <div class="footer-links flex-md-fill">
                     <h4>Información</h4>
                     <ul>
                         <li><a target="_blank"
@@ -252,7 +255,7 @@
 
                 </div>
 
-                <div class="footer-links">
+                <div class="footer-links flex-md-fill">
                     <h4>Nuestras Redes</h4>
                     <ul>
                         <li><a target="_blank"
@@ -267,11 +270,13 @@
 
 
         </div>
-        <!-- JS BS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+
     </footer>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
